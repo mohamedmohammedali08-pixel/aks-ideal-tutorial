@@ -1,0 +1,737 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AK's Ideal Tutorial – 13+ Years of Educational Excellence. Premium coaching for SSC, Intermediate, Diploma & Foundation Courses in Hyderabad by Akheel Pasha (M.E, B.Ed)." />
+  <meta name="keywords" content="AK's Ideal Tutorial, Akheel Pasha, SSC coaching Hyderabad, Intermediate MPC coaching, Diploma coaching, Champapet, Santosh Nagar" />
+  <meta name="author" content="Akheel Pasha" />
+  <meta property="og:title" content="AK's Ideal Tutorial – Excellence in Education" />
+  <meta property="og:description" content="13+ Years of Educational Excellence. Top coaching for SSC, Intermediate & Diploma in Hyderabad." />
+  <meta property="og:type" content="website" />
+  <title>AK's Ideal Tutorial – Excellence in Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+<div id="loader" class="loader">
+    <canvas id="loader-canvas"></canvas>
+
+    <div class="loader-content">
+
+        <div class="loader-logo">
+            <span class="loader-ak">AK</span>
+            <span class="loader-rest">'s</span>
+        </div>
+
+        <div class="loader-title">
+            IDEAL TUTORIAL
+        </div>
+
+        <div class="loader-percent-wrapper">
+            <span id="loader-percent">0%</span>
+        </div>
+
+        <div class="loader-bar-wrap">
+            <div id="loader-bar"></div>
+        </div>
+
+        <p class="loader-tagline">
+            Illuminating Minds. Building Futures.
+        </p>
+
+    </div>
+</div>
+
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo" aria-label="AK's Ideal Tutorial Home">
+      <span class="logo-ak">AK</span><span class="logo-rest">'s Ideal Tutorial</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#courses" class="nav-link" data-section="courses">Courses</a></li>
+      <li><a href="#results" class="nav-link" data-section="results">Results</a></li>
+      <li><a href="#gallery" class="nav-link" data-section="gallery">Gallery</a></li>
+      <li><a href="#testimonials" class="nav-link" data-section="testimonials">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <canvas id="hero-canvas"></canvas>
+  <div class="aurora"></div>
+  <div class="mesh-gradient"></div>
+  <div class="mouse-glow" id="mouse-glow"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
+      <i class="fas fa-star"></i> 13+ Years of Educational Excellence
+    </div>
+    <h1 class="hero-heading">
+      <span class="word">AK's</span>
+      <span class="word gradient-text">Ideal</span>
+      <span class="word">Tutorial</span>
+    </h1>
+    <div class="hero-typing-wrapper">
+      <span class="typing-text" id="typing-text"></span>
+      <span class="cursor-blink">|</span>
+    </div>
+    <div class="hero-specializations">
+      <div class="spec-tag"><i class="fas fa-graduation-cap"></i> Intermediate MPC</div>
+      <div class="spec-tag"><i class="fas fa-flask"></i> IPE</div>
+      <div class="spec-tag"><i class="fas fa-tools"></i> Diploma</div>
+      <div class="spec-tag"><i class="fas fa-book"></i> SSC</div>
+      <div class="spec-tag"><i class="fas fa-seedling"></i> Foundation</div>
+    </div>
+    <div class="hero-buttons">
+      <a href="#results" class="btn btn-primary magnetic-btn" id="btn-results">
+        <span class="btn-text"><i class="fas fa-trophy"></i> Explore Results</span>
+        <div class="btn-ripple"></div>
+      </a>
+      <a href="#contact" class="btn btn-secondary magnetic-btn" id="btn-contact">
+        <span class="btn-text"><i class="fas fa-phone"></i> Contact Us</span>
+        <div class="btn-ripple"></div>
+      </a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+      <span>Scroll to explore</span>
+    </div>
+  </div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</section>
+
+<section class="about section" id="about">
+  <div class="section-bg-glow"></div>
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">Meet Your Mentor</div>
+      <h2 class="section-title">About the <span class="gradient-text">Teacher</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-image-col" data-aos="fade-right" data-aos-delay="100">
+        <div class="about-image-wrapper">
+          <div class="about-image-card">
+            <div class="about-avatar">
+              <div class="avatar-initials">AK</div>
+              <div class="avatar-ring"></div>
+              <div class="avatar-shine"></div>
+            </div>
+            <div class="about-stats-row">
+              <div class="about-stat">
+                <span class="stat-number" data-target="13">0</span><span>+</span>
+                <span class="stat-label">Years Exp.</span>
+              </div>
+              <div class="about-stat">
+                <span class="stat-number" data-target="1000">0</span><span>+</span>
+                <span class="stat-label">Students</span>
+              </div>
+              <div class="about-stat">
+                <span class="stat-number" data-target="98">0</span><span>%</span>
+                <span class="stat-label">Success Rate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-info-col" data-aos="fade-left" data-aos-delay="200">
+        <div class="about-info-card glass-card">
+          <h3 class="teacher-name">Akheel Pasha</h3>
+          <div class="teacher-qual">
+            <span class="qual-badge"><i class="fas fa-university"></i> M.E</span>
+            <span class="qual-badge"><i class="fas fa-chalkboard-teacher"></i> B.Ed</span>
+          </div>
+          <p class="teacher-desc">
+            Dedicated educator helping students achieve top ranks in SSC, Intermediate, Diploma and Foundation Courses through <strong>concept-based learning</strong> and <strong>personalized guidance</strong>. With 13+ years of experience, Akheel Sir has transformed thousands of students' academic journeys.
+          </p>
+          <div class="about-features">
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Concept-Based Learning</div>
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Personalized Attention</div>
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Proven Track Record</div>
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Regular Doubt Sessions</div>
+          </div>
+          <a href="#contact" class="btn btn-primary">
+            <span class="btn-text"><i class="fas fa-phone"></i> Get in Touch</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="courses section" id="courses">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Our <span class="gradient-text">Courses</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="courses-grid">
+      <div class="course-card glass-card tilt-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="course-icon-wrap">
+          <div class="course-icon"><i class="fas fa-drafting-compass"></i></div>
+          <div class="course-icon-glow"></div>
+        </div>
+        <div class="course-badge">ENGINEERING</div>
+        <h3 class="course-title">Diploma</h3>
+        <ul class="course-subjects">
+          <li><i class="fas fa-square-root-alt"></i> Mathematics</li>
+          <li><i class="fas fa-atom"></i> Physics</li>
+          <li><i class="fas fa-flask"></i> Chemistry</li>
+          <li><i class="fas fa-bolt"></i> BEE</li>
+        </ul>
+        <a href="#contact" class="course-btn">Enroll Now <i class="fas fa-arrow-right"></i></a>
+        <div class="card-shine"></div>
+      </div>
+      <div class="course-card glass-card tilt-card featured-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="course-icon-wrap">
+          <div class="course-icon"><i class="fas fa-microscope"></i></div>
+          <div class="course-icon-glow"></div>
+        </div>
+        <div class="course-badge popular-badge">MOST POPULAR</div>
+        <h3 class="course-title">Intermediate</h3>
+        <ul class="course-subjects">
+          <li><i class="fas fa-calculator"></i> MPC</li>
+          <li><i class="fas fa-book-open"></i> IPE</li>
+        </ul>
+        <a href="#contact" class="course-btn">Enroll Now <i class="fas fa-arrow-right"></i></a>
+        <div class="card-shine"></div>
+        <div class="featured-badge-glow"></div>
+      </div>
+      <div class="course-card glass-card tilt-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="course-icon-wrap">
+          <div class="course-icon"><i class="fas fa-school"></i></div>
+          <div class="course-icon-glow"></div>
+        </div>
+        <div class="course-badge">SCHOOL</div>
+        <h3 class="course-title">8th to 10th Class</h3>
+        <ul class="course-subjects">
+          <li><i class="fas fa-square-root-alt"></i> Mathematics</li>
+          <li><i class="fas fa-atom"></i> Physics</li>
+          <li><i class="fas fa-language"></i> Telugu</li>
+          <li><i class="fas fa-plus-circle"></i> All Remaining Subjects</li>
+        </ul>
+        <a href="#contact" class="course-btn">Enroll Now <i class="fas fa-arrow-right"></i></a>
+        <div class="card-shine"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="results section" id="results">
+  <div class="section-bg-glow results-glow"></div>
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">Hall of Fame</div>
+      <h2 class="section-title">Student <span class="gradient-text">Results</span> 2026</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="results-tabs" data-aos="fade-up" data-aos-delay="100">
+      <button class="tab-btn active" data-tab="intermediate" id="tab-intermediate">
+        <i class="fas fa-graduation-cap"></i> Intermediate
+      </button>
+      <button class="tab-btn" data-tab="ssc" id="tab-ssc">
+        <i class="fas fa-school"></i> SSC / 10th Class
+      </button>
+    </div>
+    <div class="tab-content active" id="tab-content-intermediate">
+      <div class="results-grid">
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="100" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-1"><i class="fas fa-crown"></i> #1</div>
+            <div class="student-avatar"><div class="avatar-letter">A</div><div class="avatar-shine-ring"></div></div>
+            <h4>ADISHARATH</h4>
+            <div class="marks-display"><span class="marks-num">963</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:96.3%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-trophy gold-icon"></i>
+            <h4>ADISHARATH</h4><p class="flip-score">963 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="150" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-2"><i class="fas fa-medal"></i> #2</div>
+            <div class="student-avatar"><div class="avatar-letter">A</div><div class="avatar-shine-ring"></div></div>
+            <h4>AKAASH</h4>
+            <div class="marks-display"><span class="marks-num">957</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:95.7%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-trophy gold-icon"></i>
+            <h4>AKAASH</h4><p class="flip-score">957 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="200" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-3"><i class="fas fa-medal"></i> #3</div>
+            <div class="student-avatar"><div class="avatar-letter">P</div><div class="avatar-shine-ring"></div></div>
+            <h4>PRANAV</h4>
+            <div class="marks-display"><span class="marks-num">950</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:95%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-trophy gold-icon"></i>
+            <h4>PRANAV</h4><p class="flip-score">950 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="250" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-4">#4</div>
+            <div class="student-avatar"><div class="avatar-letter">A</div><div class="avatar-shine-ring"></div></div>
+            <h4>ARJUN</h4>
+            <div class="marks-display"><span class="marks-num">863</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:86.3%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-star gold-icon"></i>
+            <h4>ARJUN</h4><p class="flip-score">863 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="300" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-5">#5</div>
+            <div class="student-avatar"><div class="avatar-letter">S</div><div class="avatar-shine-ring"></div></div>
+            <h4>SAHASREDDY</h4>
+            <div class="marks-display"><span class="marks-num">862</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:86.2%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-star gold-icon"></i>
+            <h4>SAHASREDDY</h4><p class="flip-score">862 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="350" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-5">#6</div>
+            <div class="student-avatar"><div class="avatar-letter">M</div><div class="avatar-shine-ring"></div></div>
+            <h4>MADAV</h4>
+            <div class="marks-display"><span class="marks-num">845</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:84.5%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-star gold-icon"></i>
+            <h4>MADAV</h4><p class="flip-score">845 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="400" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-5">#7</div>
+            <div class="student-avatar"><div class="avatar-letter">S</div><div class="avatar-shine-ring"></div></div>
+            <h4>SHIVACHARAN</h4>
+            <div class="marks-display"><span class="marks-num">676</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:67.6%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-award gold-icon"></i>
+            <h4>SHIVACHARAN</h4><p class="flip-score">676 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="450" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-5">#8</div>
+            <div class="student-avatar"><div class="avatar-letter">S</div><div class="avatar-shine-ring"></div></div>
+            <h4>SAIVARSHITH</h4>
+            <div class="marks-display"><span class="marks-num">592</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:59.2%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-award gold-icon"></i>
+            <h4>SAIVARSHITH</h4><p class="flip-score">592 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+        <div class="result-card flip-card" data-aos="zoom-in" data-aos-delay="500" onclick="triggerConfetti(event)">
+          <div class="flip-front glass-card">
+            <div class="rank-badge rank-5">#9</div>
+            <div class="student-avatar"><div class="avatar-letter">S</div><div class="avatar-shine-ring"></div></div>
+            <h4>SIDDARTH</h4>
+            <div class="marks-display"><span class="marks-num">463</span> Marks</div>
+            <div class="marks-bar"><div class="marks-fill" style="--pct:46.3%"></div></div>
+          </div>
+          <div class="flip-back glass-card">
+            <i class="fas fa-award gold-icon"></i>
+            <h4>SIDDARTH</h4><p class="flip-score">463 / 1000</p><p>Intermediate 2026</p><p class="flip-congrats">🎉 Congratulations!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content" id="tab-content-ssc">
+      <div class="ssc-toppers">
+        <div class="ssc-top3">
+          <div class="ssc-topper gold-topper" data-aos="zoom-in" data-aos-delay="100" onclick="triggerConfetti(event)">
+            <div class="topper-medal gold">🥇</div>
+            <div class="topper-avatar"><div class="avatar-letter">P</div></div>
+            <h4>P. Yeshwanth</h4>
+            <div class="topper-marks">584</div>
+          </div>
+          <div class="ssc-topper silver-topper" data-aos="zoom-in" data-aos-delay="150" onclick="triggerConfetti(event)">
+            <div class="topper-medal silver">🥈</div>
+            <div class="topper-avatar"><div class="avatar-letter">P</div></div>
+            <h4>Praneeth</h4>
+            <div class="topper-marks">570</div>
+          </div>
+          <div class="ssc-topper bronze-topper" data-aos="zoom-in" data-aos-delay="200" onclick="triggerConfetti(event)">
+            <div class="topper-medal bronze">🥉</div>
+            <div class="topper-avatar"><div class="avatar-letter">H</div></div>
+            <h4>Hemanth</h4>
+            <div class="topper-marks">541</div>
+          </div>
+        </div>
+        <div class="ssc-list-grid">
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="100"><span class="ssi-rank">4</span><span class="ssi-name">Malleshwari</span><span class="ssi-marks">540</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="110"><span class="ssi-rank">5</span><span class="ssi-name">Md. Farey</span><span class="ssi-marks">537</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="120"><span class="ssi-rank">6</span><span class="ssi-name">Danish Klasan</span><span class="ssi-marks">534</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="130"><span class="ssi-rank">7</span><span class="ssi-name">P. Pranay</span><span class="ssi-marks">530</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="140"><span class="ssi-rank">8</span><span class="ssi-name">Akshitha</span><span class="ssi-marks">528</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="150"><span class="ssi-rank">9</span><span class="ssi-name">Skha B</span><span class="ssi-marks">519</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="160"><span class="ssi-rank">10</span><span class="ssi-name">Hanishi</span><span class="ssi-marks">519</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="170"><span class="ssi-rank">11</span><span class="ssi-name">Pramod</span><span class="ssi-marks">518</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="180"><span class="ssi-rank">12</span><span class="ssi-name">Sindhu</span><span class="ssi-marks">517</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="190"><span class="ssi-rank">13</span><span class="ssi-name">Shyam Charan</span><span class="ssi-marks">517</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="200"><span class="ssi-rank">14</span><span class="ssi-name">Sathwik</span><span class="ssi-marks">513</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="210"><span class="ssi-rank">15</span><span class="ssi-name">Keerthipriya</span><span class="ssi-marks">511</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="220"><span class="ssi-rank">16</span><span class="ssi-name">Shiva Prasad</span><span class="ssi-marks">497</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="230"><span class="ssi-rank">17</span><span class="ssi-name">Sumayya</span><span class="ssi-marks">497</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="240"><span class="ssi-rank">18</span><span class="ssi-name">Bhavani Shankar</span><span class="ssi-marks">493</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="250"><span class="ssi-rank">19</span><span class="ssi-name">M. Akbar</span><span class="ssi-marks">489</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="260"><span class="ssi-rank">20</span><span class="ssi-name">Sufiyan</span><span class="ssi-marks">488</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="270"><span class="ssi-rank">21</span><span class="ssi-name">Navateja</span><span class="ssi-marks">484</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="280"><span class="ssi-rank">22</span><span class="ssi-name">Raheem</span><span class="ssi-marks">478</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="290"><span class="ssi-rank">23</span><span class="ssi-name">Preetham</span><span class="ssi-marks">478</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="300"><span class="ssi-rank">24</span><span class="ssi-name">Gowtham</span><span class="ssi-marks">470</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="310"><span class="ssi-rank">25</span><span class="ssi-name">Kaushik</span><span class="ssi-marks">460</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="320"><span class="ssi-rank">26</span><span class="ssi-name">J. Yeshwanth</span><span class="ssi-marks">444</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="330"><span class="ssi-rank">27</span><span class="ssi-name">Dhanush</span><span class="ssi-marks">395</span></div>
+          <div class="ssc-list-item" data-aos="fade-up" data-aos-delay="340"><span class="ssi-rank">28</span><span class="ssi-name">Ch. Anjali</span><span class="ssi-marks">320</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery section" id="gallery">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">Our Moments</div>
+      <h2 class="section-title">&#10024; Success <span class="gradient-text">Gallery</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+      <div class="gallery-item" onclick="openLightbox(0)">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFoezM-ZLDpqGUGSzYo9Lg9ONUIeyVpqPJ0U6WnPkG4jeD6k9nFCs__XfJPvmvyrj5i3b9e7VNW25u4F8jeYh67PaoGIfLX7r95W8dsdS6jvOzIGcyj_1xn2mpIlc8qU_mmKUw=s680-w680-h510-rw" alt="AK's Ideal Tutorial Success Photo 1" loading="lazy" />
+        <div class="gallery-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item gallery-wide" onclick="openLightbox(1)">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEm04Oi74pF39STnwGMt_WRvG8zZfnFxDFLG6gfWMGUe0vA0C3DmoEGPVxoBpcofgRg-FVQExFdlqjqY5FTOOCgjRYMqCb8CvqpgAzFSmpd98nRr3p2RbWuzGVor8Q-ABYHkhoJ=s680-w680-h510-rw" alt="AK's Ideal Tutorial Success Photo 2" loading="lazy" />
+        <div class="gallery-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(2)">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE54KOAsPeZDYLsiHtkPmgYYDQ7ty6hYFyfsIjLHKHLzceklSi9x6Y8onSi1r_xGMHPLDs7TCv7RE8zNOlQRVQiUdWlLvMOyat97gUcmUW8cK2gpINDBh-MfK9-gjR6TJ5dpPv2LusQg_R_=s680-w680-h510-rw" alt="AK's Ideal Tutorial Success Photo 3" loading="lazy" />
+        <div class="gallery-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+        <div class="gallery-shine"></div>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery Lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close"><i class="fas fa-times"></i></button>
+    <button class="lightbox-prev" onclick="changeLightbox(-1)" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+    <button class="lightbox-next" onclick="changeLightbox(1)" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Gallery Full Image" />
+  </div>
+</section>
+
+<section class="testimonials section" id="testimonials">
+  <div class="section-bg-glow"></div>
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">What Parents and Students Say</div>
+      <h2 class="section-title">Google <span class="gradient-text">Reviews</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="reviews-carousel" data-aos="fade-up" data-aos-delay="100">
+      <div class="reviews-track" id="reviews-track">
+        <div class="review-card glass-card">
+          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"Akheel Sir's teaching methodology is exceptional. My son's marks improved drastically after joining AK's Ideal Tutorial. Truly the best coaching in Champapet!"</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">RS</div>
+            <div><strong>Ravi Shankar</strong><span>Parent of SSC Student</span></div>
+          </div>
+        </div>
+        <div class="review-card glass-card">
+          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"Best coaching institute in the area. Akheel Sir explains complex Maths and Physics concepts so easily. Highly recommended for Intermediate students!"</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">PK</div>
+            <div><strong>Priya Kumar</strong><span>Intermediate Student</span></div>
+          </div>
+        </div>
+        <div class="review-card glass-card">
+          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"My daughter scored 540 in SSC thanks to Sir's personalized coaching. He gives special attention to every student. Outstanding teacher and human being!"</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">AN</div>
+            <div><strong>Anita Naidu</strong><span>Parent of 10th Student</span></div>
+          </div>
+        </div>
+        <div class="review-card glass-card">
+          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"AK's Ideal Tutorial is a game changer. The way Sir covers the syllabus systematically with regular tests and doubt clearing sessions is incredible!"</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">MR</div>
+            <div><strong>Mohammed Riyaz</strong><span>Diploma Student</span></div>
+          </div>
+        </div>
+        <div class="review-card glass-card">
+          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"13 years of experience shows in every class. Akheel Sir knows exactly where students struggle and helps overcome their weaknesses. Best investment for education!"</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">SV</div>
+            <div><strong>Srinivas Varma</strong><span>Parent</span></div>
+          </div>
+        </div>
+        <div class="review-card glass-card">
+          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"Joined for Intermediate MPC coaching and it was the best decision. The notes provided are excellent and Sir's dedication is unmatched. Scored 950+ marks!"</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">PV</div>
+            <div><strong>Pranav Venkat</strong><span>Intermediate Student 2026</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="prev-btn" onclick="moveCarousel(-1)" aria-label="Previous Review"><i class="fas fa-chevron-left"></i></button>
+        <div class="carousel-dots" id="carousel-dots"></div>
+        <button class="carousel-btn" id="next-btn" onclick="moveCarousel(1)" aria-label="Next Review"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <div class="reviews-cta" data-aos="fade-up" data-aos-delay="200">
+      <a href="https://share.google/fzaLzMl1dWWyYRWbo" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+        <i class="fab fa-google"></i> View All Google Reviews
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="timings section" id="timings">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">We Are Here For You</div>
+      <h2 class="section-title">Class <span class="gradient-text">Timings</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="timings-grid">
+      <div class="timing-card glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="timing-day">Monday</div>
+        <div class="timing-icon"><i class="fas fa-clock"></i></div>
+        <div class="timing-hours">6 AM &#8211; 9 PM</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:75%"></div></div>
+      </div>
+      <div class="timing-card glass-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="timing-day">Tuesday</div>
+        <div class="timing-icon"><i class="fas fa-clock"></i></div>
+        <div class="timing-hours">6 AM &#8211; 9 PM</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:100%"></div></div>
+      </div>
+      <div class="timing-card glass-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="timing-day">Wednesday</div>
+        <div class="timing-icon"><i class="fas fa-clock"></i></div>
+        <div class="timing-hours">6 AM &#8211; 9 PM</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:100%"></div></div>
+      </div>
+      <div class="timing-card glass-card" data-aos="fade-up" data-aos-delay="250">
+        <div class="timing-day">Thursday</div>
+        <div class="timing-icon"><i class="fas fa-clock"></i></div>
+        <div class="timing-hours">6 AM &#8211; 9 PM</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:100%"></div></div>
+      </div>
+      <div class="timing-card glass-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="timing-day">Friday</div>
+        <div class="timing-icon"><i class="fas fa-clock"></i></div>
+        <div class="timing-hours">6 AM &#8211; 9 PM</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:100%"></div></div>
+      </div>
+      <div class="timing-card glass-card" data-aos="fade-up" data-aos-delay="350">
+        <div class="timing-day">Saturday</div>
+        <div class="timing-icon"><i class="fas fa-clock"></i></div>
+        <div class="timing-hours">6 AM &#8211; 9 PM</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:100%"></div></div>
+      </div>
+      <div class="timing-card glass-card special-timing" data-aos="fade-up" data-aos-delay="400">
+        <div class="timing-day">Sunday</div>
+        <div class="timing-icon"><i class="fas fa-infinity"></i></div>
+        <div class="timing-hours special-hours">Open 24 Hours</div>
+        <div class="timing-bar"><div class="timing-fill" style="--w:100%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="social-section section" id="social">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">Stay Connected</div>
+      <h2 class="section-title">Follow <span class="gradient-text">Us</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="social-icons-grid">
+      <a href="https://www.instagram.com/akheelpasha" target="_blank" rel="noopener noreferrer" class="social-card insta-card glass-card" data-aos="zoom-in" data-aos-delay="100" aria-label="Follow on Instagram">
+        <div class="social-icon-wrap"><i class="fab fa-instagram"></i></div>
+        <span class="social-label">Instagram</span>
+        <span class="social-handle">@akheelpasha</span>
+        <div class="social-ripple"></div>
+      </a>
+      <a href="https://youtube.com/@akheelsirteach" target="_blank" rel="noopener noreferrer" class="social-card yt-card glass-card" data-aos="zoom-in" data-aos-delay="200" aria-label="Subscribe on YouTube">
+        <div class="social-icon-wrap"><i class="fab fa-youtube"></i></div>
+        <span class="social-label">YouTube</span>
+        <span class="social-handle">@akheelsirteach</span>
+        <div class="social-ripple"></div>
+      </a>
+      <a href="https://wa.me/919133389503" target="_blank" rel="noopener noreferrer" class="social-card wa-card glass-card" data-aos="zoom-in" data-aos-delay="300" aria-label="Chat on WhatsApp">
+        <div class="social-icon-wrap"><i class="fab fa-whatsapp"></i></div>
+        <span class="social-label">WhatsApp</span>
+        <span class="social-handle">9133389503</span>
+        <div class="social-ripple"></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="section-bg-glow"></div>
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-label">Reach Out</div>
+      <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+        <div class="contact-card glass-card" id="phone-card">
+          <div class="contact-icon-wrap"><i class="fas fa-phone-alt"></i></div>
+          <div class="contact-details">
+            <h4>Phone</h4>
+            <a href="tel:9133389503">9133389503</a>
+          </div>
+          <div class="pin-anim"></div>
+        </div>
+        <div class="contact-card glass-card" id="wa-card">
+          <div class="contact-icon-wrap whatsapp-icon"><i class="fab fa-whatsapp"></i></div>
+          <div class="contact-details">
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/919133389503" target="_blank" rel="noopener noreferrer">9133389503</a>
+          </div>
+        </div>
+        <div class="contact-card glass-card" id="addr-card">
+          <div class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="contact-details">
+            <h4>Address</h4>
+            <p>A1, Flower Shop Lane<br>Opp. Pochamma Temple<br>Nagarjuna Colony, Santosh Nagar<br>Champapet, Hyderabad<br>Telangana 500079</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-map" data-aos="fade-left" data-aos-delay="200">
+        <div class="map-wrapper glass-card">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.750!2d78.5003!3d17.3494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba14c00000001%3A0x1!2sNagarjuna+Colony%2C+Santosh+Nagar%2C+Champapet%2C+Hyderabad%2C+Telangana+500079!5e0!3m2!1sen!2sin!4v1718700000000!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;border-radius:16px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="AK's Ideal Tutorial Location Map">
+          </iframe>
+          <div class="map-overlay-pin">
+            <i class="fas fa-map-pin"></i>
+            <span>AK's Ideal Tutorial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="footer">
+  <div class="footer-waves">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+      <path d="M0,60 C360,120 1080,0 1440,60 L1440,0 L0,0 Z" fill="rgba(99,102,241,0.1)"/>
+      <path d="M0,80 C480,20 960,140 1440,80 L1440,0 L0,0 Z" fill="rgba(139,92,246,0.08)"/>
+    </svg>
+  </div>
+  <div class="footer-particles" id="footer-particles"></div>
+  <div class="footer-content">
+    <div class="footer-brand">
+      <div class="footer-logo"><span class="logo-ak">AK</span><span class="logo-rest">'s Ideal Tutorial</span></div>
+      <p class="footer-tagline">Illuminating Minds. Building Futures.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/akheelpasha" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@akheelsirteach" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/919133389503" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:9133389503" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="footer-links-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-links-col">
+      <h4>Courses</h4>
+      <ul>
+        <li><a href="#courses">Diploma</a></li>
+        <li><a href="#courses">Intermediate MPC &amp; IPE</a></li>
+        <li><a href="#courses">8th to 10th Class</a></li>
+        <li><a href="#courses">Foundation Courses</a></li>
+      </ul>
+    </div>
+    <div class="footer-links-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><i class="fas fa-phone"></i> <a href="tel:9133389503">9133389503</a></li>
+        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919133389503" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        <li><i class="fas fa-map-marker-alt"></i> Champapet, Hyderabad</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&#169; 2026 AK's Ideal Tutorial. All Rights Reserved. Made with <i class="fas fa-heart" style="color:#f43f5e"></i> in Hyderabad.</p>
+  </div>
+  <button class="back-to-top" id="back-to-top" onclick="scrollToTop()" aria-label="Back to Top">
+    <i class="fas fa-rocket"></i>
+  </button>
+</footer>
+
+<canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
