@@ -432,6 +432,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .mesh-gradient {
+  display: none;
     position: absolute;
     inset: 0;
     width: 100%;
@@ -441,6 +442,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* FIXED MOUSE GLOW */
 .mouse-glow {
+  display: none;
     position: absolute;
     width: 300px;
     height: 300px;

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enroll now in AK's Ideal Tutorials. A modern, mobile-first admission system for Class 1 to 10, Intermediate, and Diploma courses. Get admission now!">
+  <meta name="theme-color" content="#090d16">
+  <title>Enroll Now - AK's Ideal Tutorials</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="enroll.css">
+  
+  <!-- SEO & Favicon placeholder -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+</head>
+<body>
+
+  <!-- Background Glowing Orbs for Aesthetics -->
+ 
+  <div class="container">
+    <!-- Header -->
+    <header>
+  <a href="#" class="logo">
+    AK's Ideal Tutorials<span class="logo-dot"></span>
+  </a>
+</header>
+
+    <!-- Main Hero Content -->
+    <main class="hero">
+      <div class="hero-tagline">Admissions Open 2026-27</div>
+      <h1 class="hero-title">Elevate Your Learning.<br><span>Shape Your Future.</span></h1>
+      <p class="hero-subtitle">
+        Join AK's Ideal Tutorials to unlock your potential. We offer premium coaching for Classes 1–10, Intermediate, and Diploma students with personalized guidance.
+      </p>
+      
+      <!-- Primary Trigger Button -->
+      <button type="button" class="btn-enroll" id="btnEnrollTrigger" aria-haspopup="dialog" aria-controls="enrollModal" aria-expanded="false">
+        <span>Enroll Now</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+
+      <!-- Key Features Display -->
+      <section class="features" aria-label="Why Choose Us">
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <div class="feature-details">
+            <h3>Expert Faculty</h3>
+            <p>Learn from certified, experienced mentors who simplify complex concepts.</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <div class="feature-details">
+            <h3>Flexible Programs</h3>
+            <p>Courses designed to fit school, college, or diploma curricula.</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="feature-details">
+            <h3>Custom Timings</h3>
+            <p>Choose slots that fit your schedule, starting from early morning.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 AK's Ideal Tutorials. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- =========================================
+       MODAL GLASSMORPHISM POPUP DIALOG
+       ========================================= -->
+  <div class="modal-overlay" id="modalOverlay" role="presentation">
+    <div class="modal-container" id="enrollModal" role="dialog" aria-modal="true" aria-labelledby="modalHeading" aria-describedby="modalDesc" tabindex="-1">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-title">
+          <h2 id="modalHeading">Admission Enquiry</h2>
+          <p id="modalDesc">Fill out this quick form to start your learning journey.</p>
+        </div>
+        <button type="button" class="btn-close" id="btnCloseModal" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Success & Loading Overlay Inside the Modal -->
+      <div class="status-overlay" id="statusOverlay" aria-live="assertive">
+        <div class="spinner-container">
+          <div class="spinner" id="statusSpinner"></div>
+          <div class="success-checkmark" id="statusCheckmark">
+            <svg viewBox="0 0 52 52">
+              <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+              <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+            </svg>
+          </div>
+        </div>
+        <div class="status-title" id="statusTitle">Validating Details...</div>
+        <div class="status-subtitle" id="statusSubtitle">Please wait while we prepare your request.</div>
+      </div>
+
+      <!-- Modal Form -->
+      <form class="modal-form" id="enrollmentForm" novalidate>
+        
+        <!-- Field 1: Student Name -->
+        <div class="form-group" id="groupName">
+          <label class="form-label" for="studentName">Student Name <span>*</span></label>
+          <div class="input-wrapper">
+            <div class="input-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <input type="text" class="form-input" id="studentName" placeholder="Enter student's full name" required autocomplete="name">
+          </div>
+          <div class="error-message" id="errorName" role="alert">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Please enter student name.</span>
+          </div>
+        </div>
+
+        <!-- Field 2: Age -->
+        <div class="form-group" id="groupAge">
+          <label class="form-label" for="studentAge">Age <span>*</span></label>
+          <div class="input-wrapper">
+            <div class="input-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <input type="number" class="form-input" id="studentAge" placeholder="Enter age (e.g. 15)" required min="4" max="100">
+          </div>
+          <div class="error-message" id="errorAge" role="alert">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Please enter a valid age between 4 and 100.</span>
+          </div>
+        </div>
+
+        <!-- Field 3: Class (Dropdown) -->
+        <div class="form-group" id="groupClass">
+          <label class="form-label" for="studentClass">Class <span>*</span></label>
+          <div class="input-wrapper">
+            <div class="input-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <select class="form-input" id="studentClass" required>
+              <option value="" disabled selected hidden>Select Class / Course</option>
+              <option value="Class 1">Class 1</option>
+              <option value="Class 2">Class 2</option>
+              <option value="Class 3">Class 3</option>
+              <option value="Class 4">Class 4</option>
+              <option value="Class 5">Class 5</option>
+              <option value="Class 6">Class 6</option>
+              <option value="Class 7">Class 7</option>
+              <option value="Class 8">Class 8</option>
+              <option value="Class 9">Class 9</option>
+              <option value="Class 10">Class 10</option>
+              <option value="Inter 1st Year">Inter 1st Year</option>
+              <option value="Inter 2nd Year">Inter 2nd Year</option>
+              <option value="Diploma">Diploma</option>
+            </select>
+            <div class="select-arrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="error-message" id="errorClass" role="alert">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Please select a class.</span>
+          </div>
+        </div>
+
+        <!-- Field 4: Mobile Number -->
+        <div class="form-group" id="groupMobile">
+          <label class="form-label" for="studentMobile">Mobile Number <span>*</span></label>
+          <div class="input-wrapper">
+            <div class="input-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <input type="tel" class="form-input" id="studentMobile" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
+          </div>
+          <div class="error-message" id="errorMobile" role="alert">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Please enter a valid 10-digit mobile number.</span>
+          </div>
+        </div>
+
+        <!-- Field 5: Preferred Timing (Dropdown) -->
+        <div class="form-group" id="groupTiming">
+          <label class="form-label" for="preferredTiming">Preferred Timing <span>*</span></label>
+          <div class="input-wrapper">
+            <div class="input-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <select class="form-input" id="preferredTiming" required>
+              <option value="" disabled selected hidden>Select timing slot</option>
+              <option value="6:00 AM">6:00 AM</option>
+              <option value="7:00 AM">7:00 AM</option>
+              <option value="8:00 AM">8:00 AM</option>
+              <option value="9:00 AM">9:00 AM</option>
+            </select>
+            <div class="select-arrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="error-message" id="errorTiming" role="alert">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Please select your preferred timing.</span>
+          </div>
+        </div>
+
+        <!-- Field 6: Additional Comments (Textarea) -->
+        <div class="form-group" id="groupComments">
+          <label class="form-label" for="additionalComments">Additional Comments / Message</label>
+          <div class="input-wrapper">
+            <div class="input-icon" style="align-self: flex-start; margin-top: 0.9rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <textarea class="form-input form-textarea" id="additionalComments" placeholder="Enter comments or custom query (optional)"></textarea>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn-submit" id="btnSubmitAdmission">
+          <span> TAKE ADMISSION </span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Logic -->
+    <script src="script.js"></script>
+    <script src="enroll.js"></script>
+</body>
+</html>
