@@ -1,3 +1,4 @@
+ 
 /**
  * AK's Ideal Tutorials - Admission System Logic
  * Features: Form Validation, Accessibility (Focus Trap), WhatsApp Integration, Loading Animations
