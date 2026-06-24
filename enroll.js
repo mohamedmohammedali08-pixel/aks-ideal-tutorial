@@ -1,11 +1,10 @@
- 
-/**
+ /**
  * AK's Ideal Tutorials - Admission System Logic
  * Features: Form Validation, Accessibility (Focus Trap), WhatsApp Integration, Loading Animations
  */
 
 // Configuration
-const WHATSAPP_NUMBER = "919133389503  "; // Replace with actual institute number (e.g. 917032212345)
+const WHATSAPP_NUMBER = "9133389503"; // Replace with actual institute number (e.g. 917032212345)
 
 // DOM Elements
 const btnEnrollTrigger = document.getElementById("btnEnrollTrigger");
@@ -291,4 +290,3 @@ Thank You.`;
 
   }, 1200);
 });
-
